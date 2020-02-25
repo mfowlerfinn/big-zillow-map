@@ -16,3 +16,10 @@ When called:
 - it selects elements to hide
 - it removes those nodes from the DOM
 - it resizes the map content
+
+## Installing:
+
+- download `big_map_for_zillow.xpi`
+- open Firefox, go to url `about:addons`
+- click the gear in the upper right and select `Install Add-on From File`
+- Enjoy Big Maps!
