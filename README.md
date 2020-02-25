@@ -4,7 +4,7 @@ Ironically, this Real Estate website doesn't seem to care about the real estate 
 
 ## What it does
 
-It hides the side bar and top nav bar. This **doubles** the size of the map area!
+It adds a button to hide the side bar and top nav bar. This **doubles** the size of the map area!
 
 ## How does it work?
 
