@@ -1,16 +1,18 @@
-# borderify
+# Big Zillow Map
 
-**This add-on injects JavaScript into web pages. The `addons.mozilla.org` domain disallows this operation, so this add-on will not work properly when it's run on pages in the `addons.mozilla.org` domain.**
+Ironically, this Real Estate website doesn't seem to care about the real estate of their page layout... so I built a **`Firefox WebExtension`** to fix it. :smile:
 
 ## What it does
 
-This extension just includes:
+It hides the side bar and top nav bar. This **doubles** the size of the map area!
 
-* a content script, "borderify.js", that is injected into any pages
-under "mozilla.org/" or any of its subdomains
+## How does it work?
 
-The content script draws a border around the document.body.
+- it injects a content script declaratively using manifest.json
+- it adds a button to the DOM to run the function
 
-## What it shows
+When called:
 
-* how to inject content scripts declaratively using manifest.json
+- it selects elements to hide
+- it removes those nodes from the DOM
+- it resizes the map content
