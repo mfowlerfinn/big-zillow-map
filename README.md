@@ -17,9 +17,6 @@ When called:
 - it removes those nodes from the DOM
 - it resizes the map content
 
-## Installing:
+## Install it here!
 
-- download `big_map_for_zillow.xpi`
-- open Firefox, go to url `about:addons`
-- click the gear in the upper right and select `Install Add-on From File`
-- Enjoy Big Maps!
+- https://addons.mozilla.org/en-US/firefox/addon/big-map-zillow/
