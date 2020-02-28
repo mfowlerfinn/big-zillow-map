@@ -2,7 +2,7 @@
   "description": "Make zillow more usable with a BIG MAP! Hides the side bar and top bar.",
   "manifest_version": 2,
   "name": "BIG MAP for Zillow",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/mfowlerfinn/big-zillow-map",
   "icons": {
     "48": "icons/border-48.png"

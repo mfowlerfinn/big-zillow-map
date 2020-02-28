@@ -16,11 +16,17 @@ const clearScreen = () => {
   }
 };
 
-button.classList.add("zsg-button");
-button.classList.add("save-search-button");
+console.log("getting classes to apply to new button...");
+const sParent = document.querySelector(".action-bar-left-content");
+let classes = sParent.childNodes[0].classList.value;
+classes = classes.split(' ');
+console.log(classes);
+
+button.classList.add(...classes);
 button.innerHTML = "BIG MAP";
 button.style.maxWidth = "200px";
 button.style.marginRight = "1rem";
 
 parent.appendChild(button);
 button.addEventListener("click", clearScreen);
+console.log("button added!")
